@@ -18,3 +18,8 @@ Exercise 2.c
 1. git add journal.md
 2. git commit -m "Message"
 3. git push origin main
+
+
+I AM ERROR.
+
+#séance 3
