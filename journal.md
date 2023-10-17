@@ -22,7 +22,7 @@ Exercise 2.c
 3. git push origin main
 
 
-#séance 3
+## séance 3
 
 Exercice 1.b
 
@@ -36,3 +36,18 @@ git pull
 J'ai créé un tag "git-seance3-init" avec le message "version initiale séance 3":
 git tag -a git-seance3-init -m "version initiale séance 3"
 git push origin --tags
+
+
+## séance 4
+
+J'ai créé un script:
+touch premier_script.sh
+nano premier_script.sh
+
+J'ai rendu le fichier exécutable:
+chmod +x premier_script.sh
+
+J'ai exécuté le script:
+./premier_script.sh
+
+J'ai ajouté le script à mon git.
