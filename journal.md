@@ -20,6 +20,5 @@ Exercise 2.c
 3. git push origin main
 
 
-I AM ERROR.
 
 #séance 3
