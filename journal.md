@@ -9,8 +9,10 @@ J'ai créé un compte GitHub et le dépôt depuis GitHub. J'ai récupéré et cl
 Exercice 2.b
 
 Comment pouvez-vous :
-1. vérifier que vous êtes en retard par rapport à la version en ligne ? git fetch
-2. répercuter les changements du dépôt sur votre machine ? git merge
+1. vérifier que vous êtes en retard par rapport à la version en ligne ?
+git fetch
+2. répercuter les changements du dépôt sur votre machine ?
+git merge
 
 Exercise 2.c
 
@@ -20,5 +22,17 @@ Exercise 2.c
 3. git push origin main
 
 
-
 #séance 3
+
+Exercice 1.b
+
+1. Récupérez l’identifiant SHA (longue chaîne de lettres et chiffres) du commit dans votre terminal. Quelle commande devez-vous utiliser pour cela ?git log
+2. À l’aide de cet identifiant, défaites le commit. Quelle commande devez-vous utiliser ?
+git reset HEAD~1
+git diff journal.md
+git reset --hard HEAD
+git pull
+
+J'ai créé un tag "git-seance3-init" avec le message "version initiale séance 3":
+git tag -a git-seance3-init -m "version initiale séance 3"
+git push origin --tags
