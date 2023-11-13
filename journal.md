@@ -26,7 +26,7 @@ Exercise 2.c
 
 Exercice 1.b
 
-1. Récupérez l’identifiant SHA (longue chaîne de lettres et chiffres) du commit dans votre terminal. Quelle commande devez-vous utiliser pour cela ?git log
+1. Récupérez l’identifiant SHA (longue chaîne de lettres et chiffres) du commit dans votre terminal. Quelle commande devez-vous utiliser pour cela ? git log
 2. À l’aide de cet identifiant, défaites le commit. Quelle commande devez-vous utiliser ?
 git reset HEAD~1
 git diff journal.md
@@ -51,3 +51,9 @@ J'ai exécuté le script:
 ./premier_script.sh
 
 J'ai ajouté le script à mon git.
+
+## séance 7
+
+Exercice 1
+2. grep -oE '\w+' candide.txt
+3. cat candide.txt | tr '[:upper:]' '[:lower:]' | tr -sc '[:alpha:]' '\n'
