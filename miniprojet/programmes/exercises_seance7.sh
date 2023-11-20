@@ -18,10 +18,11 @@ fi
 echo "<html>
 	<head>
 		<meta charset=\"UTF-8\">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 	</head>
 	<body>" > "$OUTPUT_FILE"
 
-echo "	<table>
+echo "	<table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
 		<tr><th>ligne</th><th>URL</th><th>code HTTP</th><th>encodage</th></tr>" >> "$OUTPUT_FILE"
 
 lineno=1
@@ -44,8 +45,5 @@ echo "	</table>
 
 echo "HTML table generated successfully in $OUTPUT_FILE"
 
-
-
-
-
+xdg-open "$OUTPUT_FILE"  
 
